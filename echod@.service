@@ -1,0 +1,8 @@
+# echo@.service
+[Unit] 
+Description=Echo server service 
+
+[Service]
+User=root
+ExecStart=/sbin/echo.py 
+StandardInput=socket 
